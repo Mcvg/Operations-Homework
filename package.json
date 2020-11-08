@@ -1,7 +1,7 @@
 {
   "name": "operations",
   "version": "1.0.0",
-  "description": "Prueba backend Node.JS",
+  "description": "OPerations sum, substraction, multiplication and divide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,17 +10,10 @@
   "author": "Maria Camila Vergara",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "express-validator": "^6.4.0",
-    "jsonwebtoken": "^8.5.1",
-    "mariadb": "^2.2.0",
-    "mysql2": "^2.1.0",
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.8",
-    "sequelize": "^5.21.3"
+    "express-validator": "^6.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
